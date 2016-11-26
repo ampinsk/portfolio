@@ -1,0 +1,40 @@
+---
+title: Amanda Pinsker | Designer
+name: Tastemakers Magazine
+type: project
+---
+
+{% extends "layouts/base.twig" %}
+{% block content %}
+<section class='site-container'>
+    {% include "layouts/navigation.twig" %}
+    {% include "layouts/project-info.twig" %}
+
+    <section class="project-section">
+        <div class="project_img-container project_img-container--full">
+            <img class="project_img" src="/static/img/full/tastemakers1.jpg"/>
+            <h5 class="project_img-caption">Tastemakers issue covers</h5>
+        </div>
+        <div class="project_text-container">
+            <p class="project_text">I, along with my co-art director, am in charge of a team of student designers. We follow a style guide to keep the magazine consistent and cohesive. Each designer on the team designs a spread which is critiqued by the group. We then combine the team's spreads into the final magazine.</p>
+        </div>
+    </section>
+
+    <section class="project-section">
+        <div class="project_img-container project_img-container--large">
+            <img class="project_img" src="/static/img/full/tastemakers2.jpg"/>
+            <!-- <h5 class="project_img-caption">Tastemakers issue covers</h5> -->
+        </div>
+        <div class="project_img-container project_img-container--sm">
+            <img class="project_img" src="/static/img/full/tastemakers3.jpg"/>
+            <!-- <h5 class="project_img-caption">Tastemakers issue covers</h5> -->
+        </div>
+        <div class="project_img-container project_img-container--full">
+            <img class="project_img" src="/static/img/full/tastemakers4.jpg"/>
+            <!-- <h5 class="project_img-caption">Tastemakers issue covers</h5> -->
+        </div>
+    </section>
+
+    {% include "layouts/footer.twig" %}
+</section>
+{% endblock %}

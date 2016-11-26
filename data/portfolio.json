@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Blurr",
+    "description": "Location based photo sharing app",
+    "img": "/static/img/small/blurr.jpg",
+    "url": "blurr.html",
+    "featured": "true",
+    "category": "Branding, UI/UX",
+    "date": "Fall 2015",
+    "role": "Design Lead at <a href='http://neu.edu/scout'>Scout</a>",
+    "site": "<a href='http://yourblurr.com'>yourblurr.com</a>",
+    "next": "<a href='transforming-medicine.html'>Transforming Medicine</a>"
+  },
+  {
+    "title": "Transforming Medicine",
+    "description": "Nonprofit branding and website",
+    "img": "/static/img/small/tmed.jpg",
+    "url": "transforming-medicine.html",
+    "category": "Branding, Website",
+    "date": "Jan 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://transformingmedicine.com'>transformingmedicine.com</a>",
+    "prev": "<a href='blurr.html'>Blurr</a>",
+    "next": "<a href='tastemakers.html'>Tastemakers Magazine</a>"
+  },
+  {
+    "title": "Tastemakers Magazine",
+    "description": "Music magazine art direction",
+    "img": "/static/img/small/tastemakers.jpg",
+    "url": "tastemakers.html",
+    "category": "Editorial Design",
+    "date": "Ongoing",
+    "role": "Art Director",
+    "site": "<a href='http://tastemakersmag.com'>tastemakersmag.com</a>",
+    "prev": "<a href='transforming-medicine.html'>Transforming Medicine</a>",
+    "next": "<a href='human-ventures.html'>Human Ventures</a>"
+  },
+  {
+    "title": "Human Ventures",
+    "description": "Venture capitalist landing page",
+    "img": "/static/img/small/hvc.jpg",
+    "url": "human-ventures.html",
+    "category": "Branding, Website, Motion",
+    "date": "Feb 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://humanventures.co'>humanventures.co</a>",
+    "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
+    "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
+  },
+  {
+    "title": "Anonymous Was A Woman",
+    "description": "Social campaign about implicit bias",
+    "img": "/static/img/small/awaw.jpg",
+    "url": "anonymous-was-a-woman.html",
+    "featured": "true",
+    "category": "Graphic design",
+    "date": "Fall 2015",
+    "role": "Student work for Graphic Design 2",
+    "site": "<a href='http://causeinform.com'>causeinform.com</a>",
+    "prev": "<a href='human-ventures.html'>Human Ventures</a>",
+    "next": "<a href='broadway-bites.html'>Broadway Bites</a>"
+  },
+  {
+    "title": "Broadway Bites",
+    "description": "NYC food market table",
+    "img": "/static/img/small/bway.jpg",
+    "url": "broadway-bites.html",
+    "category": "Packaging",
+    "date": "Summer 2014",
+    "role": "Design Intern at <a href='http://thetinyrebels.com'>Tiny Rebels</a>",
+    "site": "<a href='http://urbanspacenyc.com/broadway-bites'>broadwaybites.com</a>",
+    "prev": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>",
+    "next": "<a href='one-grid.html'>One Grid Candle Co.</a>"
+  },  
+  {
+    "title": "One Grid Candle Co.",
+    "description": "Packaging and website",
+    "img": "/static/img/small/onegrid.jpg",
+    "url": "one-grid.html",
+    "category": "Branding, Packaging, Website",
+    "date": "Summer 2014",
+    "role": "Design Intern at <a href='http://thetinyrebels.com'>Tiny Rebels</a>",
+    "site": "<a href='http://onegridcandle.com'>onegridcandle.com</a>",
+    "prev": "<a href='broadway-bites.html'>Broadway Bites</a>",
+    "next": "<a href='wellthy.html'>Wellthy</a>"
+  },
+  {
+    "title": "Wellthy",
+    "description": "Healthcare application UI/UX",
+    "img": "/static/img/small/wellthy.jpg",
+    "url": "wellthy.html",
+    "featured": "true",
+    "category": "UI/UX",
+    "date": "May 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://wellthy.com'>wellthy.com</a>",
+    "prev": "<a href='one-grid.html'>One Grid Candle Co.</a>"
+  }
+  
+]

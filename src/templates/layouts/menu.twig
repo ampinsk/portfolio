@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ current_page.title }}</title>
+
+    {% block styles %}
+    <link rel="stylesheet" type="text/css" href="/static/css/menu.css">
+    {% endblock %}
+  </head>
+  <body>
+
+  <header id="up-browser-hdr" class="up-browser-hdr">
+    <a href="/" class="up-browser-page-h">{{ current_page.title }} <small>Prototype</small></a>
+    <img class="up-upstatement-logo" src="/static/img/upstatement-logo-white-trans.png">
+  </header>
+
+  <div class="up-browser-mod">
+    {% block content %}{% endblock %}
+  </div>
+
+  {% block scripts %}
+  {% endblock %}
+  </body>
+</html>

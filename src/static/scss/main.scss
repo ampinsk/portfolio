@@ -1,0 +1,69 @@
+
+// Import Partials
+@import "upbase/scss/upbase";
+@import "variables";
+@import "fonts";
+@import "navigation";
+@import "homepage";
+@import "about";
+@import "project";
+
+// General Styles
+
+.portfolio {
+  font-family: $sans;
+  background-color: $white;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  color: $black;
+  cursor: pointer;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h6 {
+    font-size: 13px;
+    font-family: $monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.site-container {
+  width: 80%;
+  padding: 0 3%;
+  max-width: 1200px;
+  margin: 30px auto 0;
+}
+
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h3, h4, h5 {
+  font-weight: 300;
+}
+
+p::selection,
+h6::selection,
+h5::selection,
+h4::selection,
+h3::selection,
+h2::selection,
+h1::selection,
+img::selection,
+a::selection {
+  background: $teal;
+}

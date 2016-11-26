@@ -1,0 +1,8 @@
+{
+  "name": "sites",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "upbase": "git@github.com:Upstatement/upbase#upbase-neue"
+  }
+}
