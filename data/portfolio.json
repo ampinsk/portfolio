@@ -36,29 +36,28 @@
     "next": "<a href='human-ventures.html'>Human Ventures</a>"
   },
   {
-    "title": "Human Ventures",
-    "description": "Venture capitalist landing page",
-    "img": "/static/img/small/hvc.jpg",
-    "url": "human-ventures.html",
-    "category": "Branding, Website, Motion",
-    "date": "Feb 2015",
-    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
-    "site": "<a href='http://humanventures.co'>humanventures.co</a>",
-    "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
-    "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
-  },
-  {
     "title": "Anonymous Was A Woman",
     "description": "Social campaign about implicit bias",
     "img": "/static/img/small/awaw.jpg",
     "url": "anonymous-was-a-woman.html",
-    "featured": "true",
     "category": "Graphic design",
     "date": "Fall 2015",
     "role": "Student work for Graphic Design 2",
     "site": "<a href='http://causeinform.com'>causeinform.com</a>",
     "prev": "<a href='human-ventures.html'>Human Ventures</a>",
     "next": "<a href='broadway-bites.html'>Broadway Bites</a>"
+  },
+  {
+    "title": "Wellthy",
+    "description": "Healthcare application UI/UX",
+    "img": "/static/img/small/wellthy.jpg",
+    "url": "wellthy.html",
+    "featured": "true",
+    "category": "UI/UX",
+    "date": "May 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://wellthy.com'>wellthy.com</a>",
+    "prev": "<a href='one-grid.html'>One Grid Candle Co.</a>"
   },
   {
     "title": "Broadway Bites",
@@ -85,16 +84,17 @@
     "next": "<a href='wellthy.html'>Wellthy</a>"
   },
   {
-    "title": "Wellthy",
-    "description": "Healthcare application UI/UX",
-    "img": "/static/img/small/wellthy.jpg",
-    "url": "wellthy.html",
+    "title": "Human Ventures",
+    "description": "Venture capitalist landing page",
+    "img": "/static/img/small/hvc.jpg",
+    "url": "human-ventures.html",
     "featured": "true",
-    "category": "UI/UX",
-    "date": "May 2015",
+    "category": "Branding, Website, Motion",
+    "date": "Feb 2015",
     "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
-    "site": "<a href='http://wellthy.com'>wellthy.com</a>",
-    "prev": "<a href='one-grid.html'>One Grid Candle Co.</a>"
+    "site": "<a href='http://humanventures.co'>humanventures.co</a>",
+    "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
+    "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
   }
   
 ]
