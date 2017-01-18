@@ -48,6 +48,18 @@
     "next": "<a href='broadway-bites.html'>Broadway Bites</a>"
   },
   {
+    "title": "Human Ventures",
+    "description": "Venture capitalist landing page",
+    "img": "/static/img/small/hvc.jpg",
+    "url": "human-ventures.html",
+    "category": "Branding, Website, Motion",
+    "date": "Feb 2015",
+    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
+    "site": "<a href='http://humanventures.co'>humanventures.co</a>",
+    "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
+    "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
+  },
+  {
     "title": "Wellthy",
     "description": "Healthcare application UI/UX",
     "img": "/static/img/small/wellthy.jpg",
@@ -84,19 +96,6 @@
     "next": "<a href='wellthy.html'>Wellthy</a>"
   },
   {
-    "title": "Human Ventures",
-    "description": "Venture capitalist landing page",
-    "img": "/static/img/small/hvc.jpg",
-    "url": "human-ventures.html",
-    "featured": "true",
-    "category": "Branding, Website, Motion",
-    "date": "Feb 2015",
-    "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
-    "site": "<a href='http://humanventures.co'>humanventures.co</a>",
-    "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
-    "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
-  },
-  {
     "title": "Museum Capstone",
     "description": "Personalized tours in the Harvard Art Museums",
     "img": "/static/img/small/museum.jpg",
@@ -105,6 +104,7 @@
     "category": "Experience Design",
     "date": "In progress",
     "role": "Student work for Senior Capstone",
+    "site": "<a href='https://invis.io/VB9OO63AY#/210571241_Home'>InVision</a>",
     "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
     "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
   }
