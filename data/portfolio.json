@@ -95,6 +95,18 @@
     "site": "<a href='http://humanventures.co'>humanventures.co</a>",
     "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
     "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
+  },
+  {
+    "title": "Museum Capstone",
+    "description": "Personalized tours in the Harvard Art Museums",
+    "img": "/static/img/small/museum.jpg",
+    "url": "museum.html",
+    "featured": "true",
+    "category": "Experience Design",
+    "date": "In progress",
+    "role": "Student work for Senior Capstone",
+    "prev": "<a href='tastemakers.html'>Tastemakers Magazine</a>",
+    "next": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>"
   }
   
 ]
