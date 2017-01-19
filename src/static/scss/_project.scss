@@ -184,3 +184,9 @@
     right: 0;
   }
 }
+
+.project-section ul {
+  @extend .project_text;
+  @extend p;
+  
+}
