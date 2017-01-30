@@ -1,4 +1,4 @@
-(function () {
-  // Add your Javascript here
-}) ();
+window.sr = ScrollReveal({
+  duration: 1000
+});
 
