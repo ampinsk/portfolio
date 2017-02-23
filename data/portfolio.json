@@ -101,11 +101,43 @@
     "description": "Healthcare application UI/UX",
     "img": "/static/img/small/wellthy.jpg",
     "url": "wellthy.html",
-    "featured": "true",
     "category": "UI/UX",
     "date": "May 2015",
     "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
     "site": "<a href='http://wellthy.com'>wellthy.com</a>",
+    "prev": "<a href='one-grid.html'>One Grid Candle Co.</a>"
+  },
+  {
+    "title": "Scout",
+    "description": "Redesigning the process of a student-led design studio",
+    "img": "/static/img/small/scout.jpg",
+    "url": "scout.html",
+    "featured": "true",
+    "category": "Process Design",
+    "date": "May 2016–Present",
+    "role": "Design Director",
+    "site": "<a href='http://neu.edu/scout'>Scout</a>",
+    "prev": "<a href='one-grid.html'>One Grid Candle Co.</a>"
+  },
+  {
+    "title": "Project Home",
+    "description": "Internal project management tool",
+    "img": "/static/img/small/pm-home.jpg",
+    "url": "pm-home.html",
+    "category": "Product Design",
+    "date": "May 2016",
+    "role": "Design Apprentice at <a href='http://upstatement.com'>Upstatement</a>",
+    "prev": "<a href='one-grid.html'>One Grid Candle Co.</a>"
+  },
+  {
+    "title": "Baudelaire",
+    "description": "A transitional serif designed for today",
+    "img": "/static/img/small/baudelaire.jpg",
+    "url": "baudelaire.html",
+    "featured": "true",
+    "category": "Type Design",
+    "date": "Fall 2016",
+    "role": "Student work for Typography 3",
     "prev": "<a href='one-grid.html'>One Grid Candle Co.</a>"
   }
   
