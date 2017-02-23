@@ -48,7 +48,7 @@
   margin: 2%;
   border: $border-thick;
   padding: 1%;
-  transition: 0.3s ease;
+  transition: 0.3s ease !important;
   
   @include mq($mobile) {
     width: 43%;
@@ -125,12 +125,12 @@
   background-color: $black;
   color: $white;
   transform: rotate(-2deg);
-  transition: 0.3s ease;
+  transition: 0.3s ease !important;
 }
 
 .homepage__thumbnail:hover {
-  transform: rotate(2deg);
-  transition: 0.3s ease;
+  transform: rotate(2deg) !important;
+  transition: 0.3s ease-in-out !important;
 }
 
 .homepage__featured-work--hdr {
