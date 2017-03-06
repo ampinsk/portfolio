@@ -1,14 +1,14 @@
 [
   {
-    "title": "Blurr",
-    "description": "Location based photo sharing app",
-    "img": "/static/img/small/blurr.jpg",
-    "url": "blurr.html",
+    "title": "Museum Capstone",
+    "description": "Personalized tours in the Harvard Art Museums",
+    "img": "/static/img/small/museum.png",
+    "url": "museum.html",
     "featured": "true",
-    "category": "Branding, UI/UX",
-    "date": "Fall 2015",
-    "role": "Design Lead at <a href='http://neu.edu/scout'>Scout</a>",
-    "site": "<a href='http://yourblurr.com'>yourblurr.com</a>",
+    "category": "Experience Design",
+    "date": "In progress",
+    "role": "Student work for Senior Capstone",
+    "site": "<a href='https://invis.io/VB9OO63AY#/210571241_Home'>InVision</a>",
     "next": "<a href='transforming-medicine.html'>Transforming Medicine</a>"
   },
   {
@@ -20,7 +20,7 @@
     "date": "Jan 2015",
     "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
     "site": "<a href='http://transformingmedicine.com'>transformingmedicine.com</a>",
-    "prev": "<a href='blurr.html'>Blurr</a>",
+    "prev": "<a href='museum.html'>Museum Capstone</a>",
     "next": "<a href='tastemakers.html'>Tastemakers Magazine</a>"
   },
   {
@@ -57,18 +57,18 @@
     "role": "Design Co-op at <a href='http://ronikdesign.com'>Ronik Design</a>",
     "site": "<a href='http://humanventures.co'>humanventures.co</a>",
     "prev": "<a href='anonymous-was-a-woman.html'>Anonymous Was A Woman</a>",
-    "next": "<a href='museum.html'>Museum Capstone</a>"
+    "next": "<a href='blurr.html'>Blurr</a>"
   },
   {
-    "title": "Museum Capstone",
-    "description": "Personalized tours in the Harvard Art Museums",
-    "img": "/static/img/small/museum.jpg",
-    "url": "museum.html",
+    "title": "Blurr",
+    "description": "Location based photo sharing app",
+    "img": "/static/img/small/blurr.jpg",
+    "url": "blurr.html",
     "featured": "true",
-    "category": "Experience Design",
-    "date": "In progress",
-    "role": "Student work for Senior Capstone",
-    "site": "<a href='https://invis.io/VB9OO63AY#/210571241_Home'>InVision</a>",
+    "category": "Branding, UI/UX",
+    "date": "Fall 2015",
+    "role": "Design Lead at <a href='http://neu.edu/scout'>Scout</a>",
+    "site": "<a href='http://yourblurr.com'>yourblurr.com</a>",
     "prev": "<a href='human-ventures.html'>Human Ventures</a>",
     "next": "<a href='broadway-bites.html'>Broadway Bites</a>"
   },
@@ -81,7 +81,7 @@
     "date": "Summer 2014",
     "role": "Design Intern at <a href='http://thetinyrebels.com'>Tiny Rebels</a>",
     "site": "<a href='http://urbanspacenyc.com/broadway-bites'>broadwaybites.com</a>",
-    "prev": "<a href='museum.html'>Museum Capstone</a>",
+    "prev": "<a href='blurr.html'>Blurr</a>",
     "next": "<a href='one-grid.html'>One Grid Candle Co.</a>"
   },  
   {
