@@ -74,7 +74,7 @@ a::selection {
       content: "";
       height: 0px;
       width: 100%;
-      bottom: 5px;
+      bottom: 4px;
       left: 0px;
       background-color: $teal;
       transition: 0.2s ease;
@@ -84,7 +84,7 @@ a::selection {
 
     a:hover:after {
       height: 8px;
-      bottom: -3px;
+      bottom: -4px;
       transition: 0.2s ease;
     }
 }

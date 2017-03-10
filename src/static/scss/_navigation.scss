@@ -66,7 +66,7 @@
     content: "";
     height: 0px;
     width: 84%;
-    bottom: 5px;
+    bottom: 4px;
     right: 13%;
     background-color: $teal;
     z-index: -1;
@@ -75,7 +75,7 @@
 
   &:hover:after {
     height: 8px;
-    bottom: -3px;
+    bottom: -4px;
     background-color: $teal;
     transition: 0.3s ease;
   }
