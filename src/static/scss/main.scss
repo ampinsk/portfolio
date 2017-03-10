@@ -67,3 +67,24 @@ img::selection,
 a::selection {
   background: $teal;
 }
+
+.link {
+  a:after {
+      position: absolute;
+      content: "";
+      height: 0px;
+      width: 100%;
+      bottom: 5px;
+      left: 0px;
+      background-color: $teal;
+      transition: 0.2s ease;
+      cursor: pointer;
+      z-index: -1;
+    }
+
+    a:hover:after {
+      height: 8px;
+      bottom: -3px;
+      transition: 0.2s ease;
+    }
+}

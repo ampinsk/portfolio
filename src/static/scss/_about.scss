@@ -99,6 +99,7 @@
 }
 
 .about-info {
+    @extend .link;
     width: 100%;
     display: inline-block;
     margin-bottom: 40px;
@@ -115,22 +116,4 @@
         margin-top: 0;
     }
 
-    a:after {
-      position: absolute;
-      content: "";
-      height: 0px;
-      width: 100%;
-      bottom: 2px;
-      left: 0px;
-      background-color: $teal;
-      transition: 0.3s ease;
-      cursor: pointer;
-      z-index: -1;
-    }
-
-    a:hover:after {
-      height: 8px;
-      bottom: -2px;
-      transition: 0.3s ease;
-    }
 }
