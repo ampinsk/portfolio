@@ -14,6 +14,7 @@ name: home
     <section class="homepage-section homepage__work homepage__work--featured site-width">
         <div class="homepage__work-container">
             {% for item in data.portfolio %}
+                {% if item.show %}
                 <a href="{{item.url}}" class="homepage__thumbnail {% if item.featured %}homepage__thumbnail--featured {% endif %}">
                     {% if item.featured %}
                     <span class="project-decription project-decription--featured">
@@ -26,6 +27,7 @@ name: home
                     </span>
                     <img class="homepage__thumbnail--img" src="{{ item.img }}" />
                 </a>
+                {% endif %}
             {% endfor %}
         </div>
     </section>
