@@ -62,13 +62,13 @@
   margin: 12px 20px;
 
   &:after {
-    width: 70%;
+    position: absolute;
     content: "";
     height: 0px;
+    width: 84%;
+    bottom: 4px;
+    right: 13%;
     background-color: $teal;
-    position: absolute;
-    bottom: 3px;
-    right: 14%;
     z-index: -1;
     transition: 0.3s ease;
   }
@@ -91,7 +91,7 @@
 
   &:after {
     @include mq($mobile) {
-      right: -4%;
+      right: -11%;
     }
   }
 }
@@ -104,7 +104,7 @@
 
   &:after {
     @include mq($mobile) {
-      left: -2%;
+      left: -6%;
     }
   }
 }
@@ -112,8 +112,9 @@
 .current {
 
   &:after {
-    height: 2px;
+    height: 11px;
     bottom: 7px;
+    background-color: $light-teal;
   }
 }
 
@@ -159,6 +160,7 @@
 }
 
 .recirc-project {
+  @extend .link;
   display: inline-block;
   text-align: center;
   margin: 0 20px 20px;
@@ -168,28 +170,8 @@
     margin: 0 0 0 40px;
   }
 
-
   p {
     margin-top: 0;
-  }
-
-  a:after {
-      position: absolute;
-      content: "";
-      height: 0px;
-      width: 100%;
-      bottom: 2px;
-      left: 0px;
-      background-color: $teal;
-      transition: 0.3s ease;
-      cursor: pointer;
-      z-index: -1;
-    }
-
-  a:hover:after {
-    height: 8px;
-    bottom: -2px;
-    transition: 0.3s ease;
   }
 }
 
