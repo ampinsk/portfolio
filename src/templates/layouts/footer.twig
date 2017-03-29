@@ -7,16 +7,17 @@
         {% for item in data.portfolio %}
             {% if item.title == current_page.name %}
                 <span class="recirc">
-                    {% if item.prev %}
+                    {% if not loop.index0 == 0 %}
                     <span class="recirc-project recirc-project--prev">
                         <h6>Previous</h6>
-                        <p>{{ item.prev }}</p>
+                        <p><a href="{{data.portfolio[loop.index0 - 1].url}}">{{data.portfolio[loop.index0 - 1].title}}</a></p>
                     </span>
                     {% endif %}
-                    {% if item.next %}
+                    {% set len = data.portfolio|length %}
+                    {% if loop.index < len %}
                     <span class="recirc-project recirc-project--next">
                         <h6>Next</h6>
-                        <p>{{ item.next }}</p>
+                        <p><a href="{{data.portfolio[loop.index0 + 1].url}}">{{data.portfolio[loop.index0 + 1].title}}</a></p>
                     </span>
                     {% endif %}
                 </span>
