@@ -55,7 +55,6 @@
   margin: 2%;
   border: $border-thick;
   padding: 1%;
-  box-shadow: 4px 4px 0px #ddd;
   transition: 0.3s ease !important;
   
   @include mq($mobile) {
@@ -139,7 +138,6 @@
 .homepage__thumbnail:hover {
   transform: rotate(2deg) !important;
   transition: 0.3s ease-in-out !important;
-  box-shadow: 6px 6px 0px #ddd;
 }
 
 .homepage__featured-work--hdr {
