@@ -43,7 +43,7 @@
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .project_img {
@@ -58,55 +58,86 @@
   @include mq($mobile) {
     margin: 0 20px 20px 0;
   }
+}
 
-  &--xxxs {
-    width: 100%;
-    @include mq($mobile) {
-      width: 18%;
-    }
+.col1 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 7%;
   }
+}
 
-  &--xxs {
-    width: 100%;
-    @include mq($mobile) {
-      width: 23%;
-    }
+.col2 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 15%;
   }
-  &--xs {
-    width: 100%;
-    @include mq($mobile) {
-      width: 31%;
-    }
+}
+.col3 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 23%;
   }
-  &--sm {
-    width: 100%;
-    @include mq($mobile) {
-      width: 36%;
-    }
-  }
-  &--med {
-    width: 100%;
-    @include mq($mobile) {
-      width: 46%;
-    }
-  }
+}
 
-  &--large {
-    width: 100%;
-    @include mq($mobile) {
-      width: 60%;  
-    }    
+.col4 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 31%;
   }
+}
 
-  &--xl {
-    width: 100%;
-    @include mq($mobile) {
-      width: 70%;  
-    }    
+.col5 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 39%;
   }
-  &--full {
-    width: 100%;
-  }
+}
+
+.col6 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 47%;  
+  }    
+}
+
+.col7 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 55%;  
+  }    
+}
+
+.col8 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 63%;  
+  }    
+}
+
+.col9 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 71%;  
+  }    
+}
+
+.col10 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 79%;  
+  }    
+}
+
+.col11 {
+  width: 100%;
+  @include mq($mobile) {
+    width: 87%;  
+  }    
+}
+
+.col12 {
+  width: 100%;
 }
 
 .project_img-caption {
@@ -135,18 +166,13 @@
 }
 
 .project_text-container {
-  width: 100%;
   margin: 40px 0;
 }
+
 .project_text {
   display: inline-block;
-  width: 100%;
   margin-right: 10px;
   vertical-align: top;
-
-  @include mq($mobile) {
-    width: 350px;
-  }
 }
 
 .project_text-container--half {
