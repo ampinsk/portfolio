@@ -198,3 +198,31 @@
   @extend p;
   
 }
+
+
+.table-of-contents {
+  list-style: none;
+
+  li {
+    counter-increment: item;
+    margin-bottom: 8px;
+    font-size: 15px;
+
+    &:before {
+      margin-right: 10px;
+      content: counter(item);
+      background: $light-teal;
+      border-radius: 100%;
+      color: $black;
+      width: 1.2em;
+      text-align: center;
+      display: inline-block;
+      transition: $timing;
+    }
+
+    &:hover:before {
+      background: $teal;
+      transition: $timing;
+    }
+  }
+}

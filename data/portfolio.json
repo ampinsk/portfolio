@@ -67,6 +67,17 @@
     "show": "true"
   },
   {
+    "title": "PM Home",
+    "description": "Internal project management tool",
+    "img": "/static/img/small/pm-home.png",
+    "url": "pm-home.html",
+    "category": "Product design",
+    "featured": "true",
+    "date": "Spring 2016",
+    "role": "Design Apprentice at <a href='http://upstatement.com'>Upstatement</a>",
+    "show": "true"
+  },
+  {
     "title": "Broadway Bites",
     "description": "NYC food market table",
     "img": "/static/img/small/bway.jpg",
