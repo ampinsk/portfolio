@@ -55,7 +55,7 @@
     "show": "true"
   },
   {
-    "title": "PM Home",
+    "title": "Project Home",
     "description": "Internal project management tool",
     "img": "/static/img/small/pm-home.png",
     "url": "pm-home.html",
