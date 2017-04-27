@@ -29,12 +29,8 @@ p {
 }
 
 h6 {
-    font-size: 13px;
-    font-family: $monospace;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin-top: 20px;
+  font-size: 13px;
+  margin-top: 20px;
 }
 
 .site-container {
@@ -93,4 +89,10 @@ a::selection {
 h2 {
   font-size: 35px;
   // margin-bottom: 40px;
+}
+
+.monospace {
+  font-family: $monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

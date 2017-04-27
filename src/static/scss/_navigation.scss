@@ -165,6 +165,10 @@
   text-align: center;
   margin: 0 20px 20px;
 
+  h6 {
+    @extend .monospace;
+  }
+
   @include mq($mobile) {
     text-align: right;
     margin: 0 0 0 40px;

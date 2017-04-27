@@ -2,6 +2,9 @@
     {% if item.title == current_page.name %}
         <section class="project-info">
             <h1 class="project-info--hdr"> {{ item.title }}</h1>
+            {% if item.featured %}
+                <span class="project-info--featured">featured</span>
+            {% endif %}
             <div class="project-info--container">
                 <div class="project-info--item">
                     <h6>category</h6>
