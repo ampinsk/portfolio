@@ -6,9 +6,9 @@
   width: 100%;
   line-height: 1.4;
 
-  @include mq($tablet) {
-    padding: 1%;
-    width: 38%;
+  @include mq($desktop) {
+    padding: 1% 4%;
+    width: 34%;
     margin-top: 100px;
   }
 }
@@ -106,7 +106,7 @@
 }
 
 .homepage__header--deck {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 
